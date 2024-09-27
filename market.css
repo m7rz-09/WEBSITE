@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d7cece;
+    color: #E4E6EB;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d889e6;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.left-sidebar {
+    background-color: #d7cece;
+    width: 250px;
+    height: calc(100vh - 70px);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-links a i {
+    margin-right: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #f292dc;
+}
+.marijuana{
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-left: 10px;
+    padding: 5px;
+
+}
+.marijuana img{
+    width: 200px;
+    height: 300px;
+}
+.video-container {
+    width: 80%;     
+    height: 100vh;   
+    margin-left: 270px;
+}
+
+.full-video {
+    width: 100%;    
+    height: 100%;   
+    object-fit: cover; 
+}
